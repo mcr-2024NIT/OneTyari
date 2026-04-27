@@ -25,11 +25,5 @@ public class Move : MonoBehaviour
             Debug.Log("ジャンプ成功");
         }
     }
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        
-
-        
-    }
+    
 }
