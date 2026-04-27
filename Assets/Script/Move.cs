@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    public float _speed;
-    public float _jumpForce;
-    public float _Xpos;
+    [SerializeField] private float _speed;
+    [SerializeField] private float _jumpForce;
+    public static float _Xpos;
 
     Rigidbody rb;
 
